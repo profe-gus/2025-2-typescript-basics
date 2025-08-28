@@ -1,4 +1,6 @@
-import { gustavo, studentsIds } from './objects/objects'
+//import { gus } from './classes/class-minify'
+//import { gustavo, studentsIds } from './objects/objects'
+import { gus } from './classes/classes'
 import './style.css'
 //import { finalAge, height, isValid, message, name } from './type-basics/type-basics';
 
@@ -17,6 +19,7 @@ import './style.css'
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <h2>
-  ${JSON.stringify(gustavo)}
+  ${JSON.stringify(gus.getName)}
+
   </h2>
 `

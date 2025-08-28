@@ -2,7 +2,7 @@ export const studentsIds: number[] = [1,2,4,14,54]
 
 studentsIds.push(+"6");
 // explorar tipo symbol
-
+console.log("He pasasdo por aca y me ejecuté")
 interface Student {
     id: number;
     name: string;
